@@ -1,11 +1,17 @@
+import { render } from "@testing-library/react";
 
 
 function Grid() {
-  return (
-    <div>
-        What's good, bro
-    </div>
-  );
-}
 
-export default Grid;
+    render() ;
+        return (
+
+            //create divs for squares
+            <div class="squares">
+        
+            </div>
+          )
+    }  
+
+
+export default Grid; //import "Grid" to App.js folder
