@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 
  import './App.css';
  import Grid from './components/Grid';
@@ -10,10 +10,10 @@
 
     //Starts with title of game
     <div className="App">
-      <h1>Wordle</h1>
 
-      <Grid />
-      <Keyboard />
+        <h1>Wordle</h1>  
+        <Grid />
+        <Keyboard />
     
     </div>
   );
