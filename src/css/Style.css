@@ -12,9 +12,11 @@
 
 .grid{
   height: 50px;
+  width: 50px;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
+  min-height: 50px;
   align-items: center;
   flex-wrap: wrap;
 }
