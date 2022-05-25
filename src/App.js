@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-//import Grid from './components/Grid';
-import GameContainer from './components/GameContainer';
-import Square from './components/Square';
+// import logo from './logo.svg';
+
+ import './App.css';
+ import Grid from './components/Grid';
+ import Keyboard from './components/Keyboard';
+ 
+// import Square from './components/Square';
+// import Container from './components/Container'
 
 
  function App() {
   return (
+
+    //Starts with title of game
     <div className="App">
-      <GameContainer />
+      <h1>Wordle</h1>
+      <Grid />
+      <Keyboard />
+
+      {/* <GameContainer />
       <Square />
+      <Square />
+      <Square />
+      <Container /> */}
+
+      
     </div>
   );
 
-
-//   return (
-//     <div grid = "Grid">
-// < Grid />
-//     </div>
-    
-//   );
 }
 
 export default App;
